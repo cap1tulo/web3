@@ -1,0 +1,209 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 7;
+    padding: 10px 0;
+}
+
+.custom__header {
+    position: static;
+    background-color: #0a1f44;
+    margin-bottom: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logo__sport {
+    color: #f2f2f2;
+}
+
+.logo__life {
+    color: #ffaa00d9;
+}
+
+.nav-link {
+    color: #f2f2f2;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #ffaa00d9;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #ffaa00d9;
+}
+
+.hero {
+    position: relative;
+    background-image: url("../img/sportlifebg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero h1,
+.hero p,
+.hero .btn {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.hero .btn {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    background-color: #ffaa00d9;
+    color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.hero .btn:hover {
+    transform: scale(1.1);
+    background-color: #0a1f44;
+    color: #00d9ff;
+}
+
+#about,
+#cta {
+    padding: 60px 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.my-carousel {
+    width: 60%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+#services {
+    padding: 60px 0;
+    background-color: #e5e5e5;
+    text-align: center;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 15px rgba(0, 31, 68, 0.1);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 31, 68, 0.15);
+}
+
+.card-title {
+    color: #0a1f44;
+    font-weight: 600;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.transparent-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 7;
+    padding: 10px 0;
+    background-color: transparent;
+}
+
+.collage-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.plan-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+.plan-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.plan-card h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000000;
+}
+.plan-card p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+.plan-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.plan-card hr {
+    margin: 20px 0;
+}
+form button {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #0a1f44;
+    color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer p {
+    color: #0a1f44;
+}
